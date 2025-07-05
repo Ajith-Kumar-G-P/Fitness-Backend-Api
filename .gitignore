@@ -1,11 +1,37 @@
-# Ignore virtual environment
-venv/
-
-# Ignore SQLite database
-bookings.db
-
-# Ignore __pycache__ and compiled files
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# SQLite database file (your app's DB)
+bookings.db
+
+# Logs
+*.log
+app.log
+
+# Editor and system-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Test coverage reports
+htmlcov/
+.coverage
+
+# Byte-compiled and pip stuff
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
