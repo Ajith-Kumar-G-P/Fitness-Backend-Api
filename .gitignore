@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+
+# Ignore SQLite database
+bookings.db
+
+# Ignore __pycache__ and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
